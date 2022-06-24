@@ -1,7 +1,12 @@
 @import './variables.scss';
 
 .container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 1176px;
 }
+
 .price-card {
   width: 380px;
   height: 770px;
@@ -38,6 +43,14 @@
     &_green {
       background-color: $color-green;
     }
+
+    &_blue {
+      background-color: $color-blue;
+    }
+
+    &_orange {
+      background-color: $color-orange;
+    }
   }
 
   &__description {
@@ -73,8 +86,17 @@
     display: inline-block;
     margin-right: 22px;
     margin-left: 22px;
+
     &_green {
       background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+    }
+
+    &_blue {
+      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+    }
+
+    &_orange {
+      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
     }
   }
 
@@ -87,8 +109,17 @@
     text-transform: uppercase;
     padding: 11px 27px;
     border-radius: 20px;
+
     &_green {
       background-color: $color-green;
+    }
+
+    &_blue {
+      background-color: $color-blue;
+    }
+
+    &_orange {
+      background-color: $color-orange;
     }
   }
 }
