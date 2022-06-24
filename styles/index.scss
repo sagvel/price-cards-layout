@@ -6,4 +6,9 @@
 
 html {
   font-family: 'Montserrat', sans-serif;
+  font-size: $base-font-size;
+  color: $base-text-color;
+  background-color: $color-background-main;
 }
+
+@import './card.scss';

@@ -1,0 +1,94 @@
+@import './variables.scss';
+
+.container {
+}
+.price-card {
+  width: 380px;
+  height: 770px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 33px 0 40px 0;
+  background-color: $color-background-secondary;
+  &__title {
+    margin: 0;
+    height: 64px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+  }
+
+  &__sub-title {
+    margin-top: -5px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+
+  &__price {
+    margin-top: 33px;
+    padding: 19px 0;
+    align-self: stretch;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    text-align: center;
+
+    &_green {
+      background-color: $color-green;
+    }
+  }
+
+  &__description {
+    width: 327px;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 18px;
+  }
+
+  &__options-list {
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    align-self: stretch;
+    list-style: none;
+    font-weight: 300;
+    line-height: 18px;
+  }
+
+  &__options-list-item {
+    height: 50px;
+    padding: 16px 0;
+
+    &:nth-child(odd) {
+      background-color: $color-background-accent;
+    }
+  }
+
+  &__options-list-icon {
+    width: 15px;
+    height: 13px;
+    display: inline-block;
+    margin-right: 22px;
+    margin-left: 22px;
+    &_green {
+      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+    }
+  }
+
+  &__order-btn {
+    margin-top: 50px;
+    border: none;
+    color: $base-text-color;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    padding: 11px 27px;
+    border-radius: 20px;
+    &_green {
+      background-color: $color-green;
+    }
+  }
+}
