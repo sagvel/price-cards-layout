@@ -6,6 +6,7 @@
 
 - HTML 5
 - CSS 3
-- SASA Preprocessor
+- SASS Preprocessor
+- Figma
 
 Author - Oleksandr Saulko
