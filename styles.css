@@ -6,12 +6,12 @@
 }
 
 .price-card {
-  width: 380px;
-  height: 770px;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
+  width: 380px;
+  height: 770px;
   padding: 33px 0 40px 0;
   background-color: #334247;
   overflow: hidden;
@@ -87,9 +87,9 @@
   background-color: #2a3438;
 }
 .price-card__options-list-icon {
+  display: inline-block;
   width: 15px;
   height: 13px;
-  display: inline-block;
   margin-right: 22px;
   margin-left: 22px;
 }
@@ -104,12 +104,12 @@
 }
 .price-card__order-btn {
   margin-top: 50px;
+  padding: 11px 27px;
   border: none;
   color: #fff;
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
-  padding: 11px 27px;
   border-radius: 20px;
 }
 .price-card__order-btn_green {
@@ -134,9 +134,9 @@ html {
 }
 
 body {
+  display: flex;
   min-height: 100vh;
   width: 100%;
-  display: flex;
 }
 
 /*# sourceMappingURL=styles.css.map */
